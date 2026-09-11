@@ -6,10 +6,7 @@ public:
         bool flag = true ;
         for(int i =0;i<bills.size();i++)
         {
-            if((bills[i]==10 || bills[i]==20 )&& flag == true)
-            {
-                return false;
-            }
+           
             if(bills[i]==5)
             {
                 cnt5++;
